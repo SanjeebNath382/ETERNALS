@@ -21,7 +21,7 @@ We've developed the ***Healthcare Platform*** which is a webapp using **Machine 
 |Front-End| React.js, Material UI | This built the web application, the way we see it.| 
 |Machine Learning API| Naive Bayes Algorithm, KNN Model, Support Vector Machine, Logistic Regression, Python | Our model has beentrained on Google Collab, and the data classifies the data into categories. We have an accuracy of ~84%|
 |IoT| Arduino Uno,Temperature and Heart-beat sensor | Using temperature and heart rate we are able to predict the correct emotions of that patient. Helping them to know their real emotion which can not be predicted by facial expression. The vital signals of the patient can also be used for remote monitoring.
- |
+ 
 
 ## Team - Eternals
 
