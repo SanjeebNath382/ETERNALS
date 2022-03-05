@@ -17,6 +17,8 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import App from "./App";
+import Login from "./components/login";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -24,27 +26,10 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const Home = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
 
   return (
     <Routes>
-     <Route path="/" element={ <div><Navigation />
-      <Header data={landingPageData.Header} />
-      <Team data={landingPageData.Team} /> </div>}>
-    {/* <div> 
-      <Navigation />
-      <Header data={landingPageData.Header} />  */}
-      {/* <Features data={landingPageData.Features} />
-      {/* <About data={landingPageData.About} /> */}
-      {/* <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery}/>
-      <Testimonials data={landingPageData.Testimonials} /> */}
-      {/* <Team data={landingPageData.Team} /> */}
-      {/* <Contact data={landingPageData.Contact} /> */}
-    {/* </div> */}
+     <Route path="/" element={<App />}>
         </Route>
         <Route path="/login" element={ <Login />}>
          </Route>
