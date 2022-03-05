@@ -7,6 +7,8 @@ import { Team } from "./components/Team";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import Dashboard from "./components/dashboard";
+// import DashboardDoctor from "./components/dashboardDoctor";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -35,6 +37,7 @@ const App = () => {
 
       <Team data={landingPageData.Team} />
       {/* <Login /> */}
+      {/* <Dashboard /> */}
     </div>
   );
 };
