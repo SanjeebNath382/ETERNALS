@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "Providing Complete Remote Healthcare",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "An All-in-one healthcare platform for your needs, where you are a priority"
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -163,22 +163,22 @@
     {
       "icon": "fa fa-heartbeat",
       "title": "Remote monitoring",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Using temperature and heart rate we are able to predict the correct emotions of that patient and help them know their real emotion"
     },
     {
       "icon": "fa fa-video-camera",
       "title": "Video Call",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Facility of connecting to Doctors/Counsellors/Therpists via Video call or audio call."
     },
     {
       "icon": "fa fa-smile-o",
       "title": "Assess Mental health",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Assess the Mental health through psychiatric test to find severity level."
     },
     {
       "icon": "fa fa-user-md",
       "title": "Physical Checker",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Analyse ailments through symptoms and predict the plausible diseases along with their causes."
     }
   ]
 }
