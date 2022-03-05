@@ -7,6 +7,7 @@ import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import App from "./App";
 import Login from "./components/login";
+import Vitals from "./components/vitals";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -21,6 +22,7 @@ const Home = () => {
         </Route>
         <Route path="/login" element={ <Login />}>
          </Route>
+         <Route path="/vitals" element={ <Vitals />}></Route>
   </Routes>
     
   );
