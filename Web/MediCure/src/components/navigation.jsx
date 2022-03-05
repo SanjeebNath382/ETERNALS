@@ -1,3 +1,4 @@
+import logo from "../images/logo.png";
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -15,9 +16,10 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
+          <img href='#page-top' src={logo} style={{height:"200px",width:"250px",marginBottom:"-40px",marginTop:"-50px"}}></img>{' '}
+          {/* <a className='navbar-brand page-scroll' href='#page-top'>
            MediCure
-          </a>{' '}
+          </a>{' '} */}
         </div>
 
         <div
@@ -56,6 +58,17 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
+              <a href="http://localhost:3001/" className='page-scroll' target="_blank">
+                  Mental Health Tracker
+              </a>
+            </li>
+            <li>
+              <a href="http://localhost/healthChecker" className='page-scroll' target="_blank">
+                  Physical Health Tracker
+              </a>
+            </li>
+            <li>
+            
               <a href='#team' className='page-scroll'>
                 Team
               </a>
