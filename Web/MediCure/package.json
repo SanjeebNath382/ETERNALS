@@ -5,17 +5,14 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-<<<<<<< HEAD
     "chart.js": "^3.7.1",
     "emailjs-com": "^2.6.4",
     "react": "^17.0.1",
     "react-chartjs-2": "^4.0.1",
-=======
     "bootstrap": "^5.1.3",
     "emailjs-com": "^2.6.4",
     "react": "^17.0.1",
     "react-bootstrap": "^2.2.0",
->>>>>>> 414f610fc85fd7fc3d724692babb755f5354400b
     "react-dom": "^17.0.1",
     "react-router-dom": "^6.2.2",
     "react-scripts": "^5.0.0",
