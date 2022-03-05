@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
@@ -25,10 +26,19 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+     <div> 
       <Navigation />
+
+    
+      {/* <Features data={landingPageData.Features} />
+      {/* <About data={landingPageData.About} /> */}
+      {/* <Services data={landingPageData.Services} />
+      <Gallery data={landingPageData.Gallery}/>
+      <Testimonials data={landingPageData.Testimonials} /> */}
+
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
+
       <Team data={landingPageData.Team} />
       {/* <Login /> */}
     </div>
