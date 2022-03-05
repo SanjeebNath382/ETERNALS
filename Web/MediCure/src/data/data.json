@@ -131,24 +131,24 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/sanjeeb.jpg",
+      "name": "Sanjeeb Nath",
+      "job": "UI and Blockchain Developer"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/shivam.jpeg",
+      "name": "Shivam Manihar Sahu",
+      "job": "Full Stack and IoT Developer"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/rahul.jpeg",
+      "name": "Rahul Singh",
+      "job": "Full Stack Developer"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "./img/team/sakshi.jpg",
+      "name": "Sakshi Bhandarkar",
+      "job": "Full Stack Developer"
     }
   ],
   "Contact": {
