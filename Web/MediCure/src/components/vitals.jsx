@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react';
-import Spinner from 'react-bootstrap/Spinner'
+import Spinner from "../images/spinner.gif";
 
 export default function Vitals() {
     const [content, setcontent] = useState(0)
@@ -19,12 +19,19 @@ export default function Vitals() {
     }
     if(content==1){
         return (
-            <h1>Second Content</h1>
+            <>
+                <img src={Spinner}></img>
+                <h2>Getting Vitals</h2>
+            </>
+           
         )
     }
     if(content>=2){
         return (
-            <h1>Third Content</h1>
+            <ul>
+                <li>BPM:75</li>
+                <li>Temp:96 F</li>
+            </ul>
         )
     }
     
