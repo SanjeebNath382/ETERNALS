@@ -1,1 +1,0 @@
-<h1>Team ETERNALS</h1>
