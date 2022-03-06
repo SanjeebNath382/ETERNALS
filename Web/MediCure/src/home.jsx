@@ -6,7 +6,7 @@ import {
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import App from "./App";
-import Login from "./components/Login";
+import Login from "./components/login";
 import Vitals from "./components/vitals";
 import Dashboard from "./components/dashboard";
 import DoctorDashboard from "./components/dashboardDoctor";
