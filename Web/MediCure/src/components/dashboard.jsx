@@ -1,6 +1,7 @@
 import React from 'react';
 import '../components/dashboard.css';
 import Chart from './chart';
+import {Link} from "react-router-dom";
 
 function Dashboard() {
   return (
@@ -48,6 +49,7 @@ function Dashboard() {
     <h5><b><i className="fa fa-dashboard"></i> My Dashboard</b></h5>
   </header>
   <div class="w3-row-padding w3-margin-bottom">
+  <a href="http://localhost:8080/">
     <div class="w3-quarter">
       <div class="w3-container w3-red w3-padding-16">
         <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
@@ -58,6 +60,8 @@ function Dashboard() {
         <h4>Habit Tracker</h4>
       </div>
     </div>
+    </a>
+    <a href="#">
     <div class="w3-quarter">
       <div class="w3-container w3-blue w3-padding-16">
         <div class="w3-left"><i class="fa fa-eye w3-xxxlarge"></i></div>
@@ -68,6 +72,8 @@ function Dashboard() {
         <h4>Video/Audio Call</h4>
       </div>
     </div>
+    </a>
+    <a href="/vitals">
     <div class="w3-quarter">
       <div class="w3-container w3-teal w3-padding-16">
         <div class="w3-left"><i class="fa fa-share-alt w3-xxxlarge"></i></div>
@@ -78,6 +84,7 @@ function Dashboard() {
         <h4>Get Vitals</h4>
       </div>
     </div>
+    </a>
     <div class="w3-quarter">
       <div class="w3-container w3-orange w3-text-white w3-padding-16">
         <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
