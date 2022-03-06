@@ -1,2 +1,0 @@
-# Medicure App
-
