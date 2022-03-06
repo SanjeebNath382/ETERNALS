@@ -6,8 +6,8 @@ const data = {
     // datasets is an array of objects where each object represents a set of data to display corresponding to the labels above. for brevity, we'll keep it at one object
     datasets: [
         {
-          label: 'BPM',
-          data: [74,71,72,75,78],
+          label: 'Temp in F',
+          data: [98.3,98.7,99,98.5,98.2],
           // you can set indiviual colors for each bar
           backgroundColor: [
             'rgba(3, 252, 240, 0.6)',

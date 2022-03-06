@@ -2,6 +2,7 @@ import React from 'react';
 import '../components/dashboard.css';
 import Chart from './chart';
 import {Link} from "react-router-dom";
+import Temp from "./temp";
 
 function Dashboard() {
   return (
@@ -198,7 +199,7 @@ function Dashboard() {
   <hr />
 
   <Chart />
-  <Chart />
+  <Temp />
   {/* <div class="w3-container">
     <h5>Recent Users</h5>
     <ul class="w3-ul w3-card-4 w3-white">
